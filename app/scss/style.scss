@@ -218,6 +218,9 @@ body {
         &:nth-child(n + 3) {
           padding-bottom: 0;
         }
+        &:nth-child(n + 7) {
+          display: none;
+        }
         .card__img {
         }
         .card__title,
