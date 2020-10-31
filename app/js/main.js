@@ -28,14 +28,6 @@ const viewAllCast = () => {
                 cardBoxChildrens[i + 1].style.marginTop = '40px';
             }
         })
-        // cardsCloseBtn.addEventListener('click', () => {
-        //     cardPlug.style.display = 'block';
-        //     for (let i = 6; i < 10; i++){
-        //         const cardBoxChildrens = cardBox.children;
-        //         cardBoxChildrens[i].style.display = 'none';
-        //         // cardBoxChildrens[i + 1].style.marginTop = '40px';
-        //     }
-        // })
     }
 
     onClick(cardsOpenBtn, 'none', 'block');

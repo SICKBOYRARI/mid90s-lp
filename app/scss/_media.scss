@@ -1,0 +1,160 @@
+@media (max-width: 1280px) {
+  .subheader .subheader__container {
+    flex-direction: column;
+    text-align: center;
+    .subheader__item {
+      padding: 0px 0px 44px 0px;
+      &:nth-child(3) {
+        padding-bottom: 0;
+      }
+    }
+  }
+  .title {
+    text-align: center;
+    padding-top: 88px;
+    &:after {
+      bottom: -20px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      width: 450px;
+    }
+  }
+  .plot__container .plot__content .plot__top {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 62px 0;
+    .plot__img {
+      padding-bottom: 34px;
+    }
+    .plot__text {
+      padding-left: 0;
+      width: 530px;
+    }
+  }
+  .plot__content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .plot__container .plot__content .plot__bottom {
+    flex-direction: column;
+    align-items: center;
+    width: 530px;
+    .plot__img {
+      &:nth-child(1) {
+        padding-bottom: 62px;
+      }
+    }
+  }
+  .cast .cast__container .cast__content {
+    justify-content: space-around;
+  }
+  .watch {
+    .container {
+      width: 455px;
+    }
+  }
+  .footer {
+    padding-left: 0;
+    .container {
+      width: 455px;
+    }
+  }
+}
+
+@media (max-width: 1080px) {
+  .cast .cast__container .cast__content .card {
+    &:nth-child(2) {
+      padding-bottom: 40px;
+    }
+    &:nth-child(3) {
+      padding-bottom: 40px;
+    }
+    &:nth-child(10) {
+      padding-top: 50px;
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  .cast .cast__container .cast__content .card:nth-child(4) {
+    padding-bottom: 40px;
+  }
+  .cast .cast__container .cast__content .card:nth-child(5) {
+    padding-bottom: 40px;
+  }
+  .card-plug {
+    padding-top: 50px;
+  }
+  .plot__container .plot__content .plot__bottom {
+    .plot__img {
+      &:nth-child(2) {
+        display: none;
+      }
+    }
+  }
+  .plot__container .plot__content .plot__top .plot__text {
+    padding-left: 0;
+    width: 240px;
+  }
+  .plot__container .plot__content .plot__bottom .plot__img {
+    max-width: 100%;
+  }
+  .plot__container .plot__content .plot__top .plot__img {
+    max-width: 100%;
+  }
+  .title {
+    &:after {
+      width: 240px;
+    }
+    font-size: 50px;
+  }
+  .plot__container .plot__content .plot__bottom {
+    width: 288px;
+  }
+  .plot__container .plot__content .plot__top {
+    width: 288px;
+  }
+  .watch .container {
+    width: 240px;
+  }
+  .footer .footer__container .footer__link {
+    font-size: 24px;
+  }
+  .footer .container {
+    width: 240px;
+  }
+  .card__img {
+    width: 288px;
+    border-radius: 1px;
+  }
+  .cast .cast__container .cast__content .card {
+    .card__title {
+      top: 210px;
+    }
+    .card__subtitle {
+      top: 270px;
+    }
+  }
+  .card-plug {
+    width: 288px;
+  }
+  .video .header .navigation .burger__menu .navigation__item {
+    font-size: 48px;
+  }
+  .video .header .navigation .burger__menu {
+    width: 320px;
+    padding-left: 0;
+    background: #ffffff;
+  }
+  .video .header .navigation .burger__menu .burger__menu-btn {
+    width: 40px;
+    padding-left: 40px;
+  }
+  .video .header .navigation .burger__menu .navigation__item {
+    padding-left: 0;
+    text-align: center;
+  }
+}
